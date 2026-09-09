@@ -1,26 +1,107 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --cream-50: #fbf8f4;
+  --cream-100: #f4ece4;
+  --cream-200: #efe4da;
+  --line: #e2d6cb;
+  --blush-200: #e9cdc4;
+  --blush-300: #dcb5aa;
+  --rose-500: #b98a80;
+  --rose-700: #8a5a50;
+  --taupe-500: #8c7b70;
+  --taupe-600: #6b5d54;
+  --charcoal-900: #2e2a28;
+  --charcoal-700: #4a4441;
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-cream-50: var(--cream-50);
+  --color-cream-100: var(--cream-100);
+  --color-cream-200: var(--cream-200);
+  --color-line: var(--line);
+  --color-blush-200: var(--blush-200);
+  --color-blush-300: var(--blush-300);
+  --color-rose-500: var(--rose-500);
+  --color-rose-700: var(--rose-700);
+  --color-taupe-500: var(--taupe-500);
+  --color-taupe-600: var(--taupe-600);
+  --color-charcoal-900: var(--charcoal-900);
+  --color-charcoal-700: var(--charcoal-700);
+  --font-display: var(--font-cormorant), Georgia, "Times New Roman", serif;
+  --font-body: var(--font-mulish), "Helvetica Neue", Arial, sans-serif;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--cream-50);
+  color: var(--charcoal-900);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3,
+.font-display {
+  font-family: var(--font-display);
+  text-wrap: balance;
+}
+
+.eyebrow {
+  font-size: 0.75rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: var(--rose-700);
+}
+
+.prose-amc p {
+  max-width: 68ch;
+}
+
+.prose-amc p + p {
+  margin-top: 1rem;
+}
+
+/* Reveal-on-scroll: visible at rest; animates in only when JS adds the class */
+.reveal {
+  opacity: 1;
+  transform: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .reveal-init {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+  .reveal-in {
+    opacity: 1;
+    transform: none;
+    transition:
+      opacity 0.7s cubic-bezier(0.2, 0.7, 0.2, 1),
+      transform 0.7s cubic-bezier(0.2, 0.7, 0.2, 1);
+  }
+}
+
+details > summary {
+  list-style: none;
+  cursor: pointer;
+}
+details > summary::-webkit-details-marker {
+  display: none;
+}
+details[open] .faq-icon {
+  transform: rotate(45deg);
+}
+.faq-icon {
+  transition: transform 0.25s ease;
+}
+
+:focus-visible {
+  outline: 2px solid var(--rose-500);
+  outline-offset: 3px;
 }
