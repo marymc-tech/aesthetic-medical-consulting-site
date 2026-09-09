@@ -23,7 +23,7 @@ export const metadata = pageMetadata({
 const steps = [
   {
     title: "Discovery call",
-    text: "A complimentary conversation about the services you offer, the setting you work in, and the support you're looking for.",
+    text: "A complimentary 30-minute conversation about the services you offer, the setting you work in, and the support you're looking for.",
   },
   {
     title: "Agreement",
@@ -65,7 +65,7 @@ export default function HomePage() {
               </ButtonLink>
             </div>
             <p className="mt-6 text-sm text-taupe-600">
-              Call or text{" "}
+              Text or call{" "}
               <a href={site.phoneHref} className="font-semibold text-charcoal-900">
                 {site.phone}
               </a>

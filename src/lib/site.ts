@@ -15,12 +15,12 @@ export const site = {
   url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.aestheticmedicalconsulting.com",
   phone: "602.999.5847",
   phoneHref: "tel:+16029995847",
-  email: "marymcnp@gmail.com", // CONFIRM: branded address before launch?
+  email: "marymcnp@gmail.com",
   address: {
-    street: "11000 N. Scottsdale Road", // CONFIRM: suite number
+    street: "11000 N. Scottsdale Road",
     city: "Scottsdale",
     region: "AZ",
-    postalCode: "", // CONFIRM
+    postalCode: "85254",
     country: "US",
   },
   serviceArea: ["Scottsdale", "Phoenix", "Arizona"],
@@ -38,7 +38,7 @@ export const site = {
     facebook: "https://www.facebook.com/profile.php?id=61556277694441",
     linkedin: "https://www.linkedin.com/in/mary-mcmillin-aestheticnp",
   },
-  // Temporary: links to the existing Wix membership portal. CONFIRM exact URL.
+  // Temporary: links to the existing Wix membership portal. Mary will supply the exact login URL.
   clientLoginUrl: "https://www.aestheticmedicalconsulting.com/articles",
   skindaleUrl: "https://www.skindalemedspa.com",
   foundedYear: 2024,

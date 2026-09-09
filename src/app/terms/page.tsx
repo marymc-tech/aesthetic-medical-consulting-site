@@ -14,7 +14,7 @@ export const metadata = {
 export default function TermsPage() {
   return (
     <>
-      <PageHero eyebrow="Legal" title="Terms of Use" intro="Last updated September 2026. Draft for review by Mary and her attorney before launch." cta={false} />
+      <PageHero eyebrow="Legal" title="Terms of Use" intro="Last updated September 2026." cta={false} />
       <Section>
         <div className="prose-amc max-w-3xl text-[16px] leading-relaxed text-charcoal-700">
           <h2 className="text-[28px] font-medium text-charcoal-900">Educational information only</h2>

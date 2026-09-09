@@ -15,7 +15,7 @@ export const metadata = pageMetadata({
 const library = [
   { t: "Start-up forms", d: "Checklists and templates for new med spas and solo practices." },
   { t: "Patient intake and consent forms", d: "Intake, treatment consents, and photo release templates." },
-  { t: "Protocol templates", d: "Injectables, laser, IV hydration, and medical weight loss." },
+  { t: "Protocol templates", d: "Injectables, laser, and related aesthetic services." },
   { t: "Regulatory and registration templates", d: "Documents commonly needed for accounts and registrations." },
   { t: "Compounding pharmacy forms", d: "Forms used to establish prescriber accounts for topical numbing and more." },
   { t: "Articles", d: "Clinical, operational, and business guidance for members." },

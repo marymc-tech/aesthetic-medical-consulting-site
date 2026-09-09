@@ -68,7 +68,7 @@ export default function InquiryForm() {
       <div role="status" className="rounded-2xl border border-line bg-cream-100 p-8">
         <h3 className="text-[26px] font-semibold text-charcoal-900">Thanks for reaching out.</h3>
         <p className="mt-3 text-[15.5px] text-taupe-600">
-          Mary will be in touch within one business day. If it&apos;s urgent, call or text{" "}
+          Mary will be in touch within one business day. If it&apos;s urgent, text or call{" "}
           <a href={site.phoneHref} className="font-semibold text-charcoal-900">
             {site.phone}
           </a>

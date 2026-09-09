@@ -17,7 +17,7 @@ export default function ContactPage() {
       <PageHero
         eyebrow="Contact"
         title="Schedule a discovery call"
-        intro="A complimentary conversation about your practice, the oversight or training you're looking for, and whether working together makes sense. No obligation."
+        intro="A complimentary 30-minute conversation, by video or in person in Scottsdale, about your practice, the oversight or training you're looking for, and whether working together makes sense. No obligation."
         cta={false}
       />
       <Section>
@@ -29,7 +29,7 @@ export default function ContactPage() {
             <div className="rounded-2xl border border-line bg-cream-100 p-7">
               <p className="eyebrow">Prefer to talk now?</p>
               <p className="mt-3 text-[15.5px] text-charcoal-700">
-                Call or text{" "}
+                Text or call{" "}
                 <a href={site.phoneHref} className="font-semibold text-charcoal-900 hover:text-rose-700">
                   {site.phone}
                 </a>

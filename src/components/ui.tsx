@@ -101,7 +101,7 @@ export function PageHero({
               href={site.phoneHref}
               className="inline-flex items-center rounded-full px-2 py-3 text-[14px] font-semibold text-charcoal-900 underline-offset-4 hover:underline"
             >
-              Call or text {site.phone}
+              Text or call {site.phone}
             </a>
           </div>
         ) : null}
@@ -112,7 +112,7 @@ export function PageHero({
 
 export function FinalCta({
   title = "Start with a conversation.",
-  text = "A complimentary discovery call, by video or in person in Scottsdale. We'll talk through your goals, the oversight you need, and whether we're a good fit.",
+  text = "A complimentary 30-minute discovery call, by video or in person in Scottsdale. We'll talk through your goals, the oversight you need, and whether we're a good fit.",
 }: {
   title?: string;
   text?: string;
@@ -133,7 +133,7 @@ export function FinalCta({
               Schedule a Discovery Call
             </Link>
             <a href={site.phoneHref} className="text-sm text-cream-50/75 hover:text-cream-50">
-              or call/text {site.phone}
+              or text/call {site.phone}
             </a>
           </div>
         </div>

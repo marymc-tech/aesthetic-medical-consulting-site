@@ -9,7 +9,7 @@ import { site } from "@/lib/site";
 export const metadata = pageMetadata({
   title: "Medical Director Services for Arizona Med Spas & Injectors",
   description:
-    "Monthly medical director plans for Arizona med spas, nurse injectors, laser technicians, and estheticians. Protocols, good faith exams, laser and IPL oversight, and daily support.",
+    "Monthly medical director plans for Arizona med spas, nurse injectors, laser technicians, and estheticians. Protocols, good faith exams, laser and IPL oversight, and daily support. Standalone good faith exams available.",
   path: "/medical-director-services",
 });
 
@@ -21,14 +21,6 @@ const oversight = [
   {
     title: "Laser and IPL",
     text: "Medical oversight for laser hair removal, IPL, and related device treatments, with pre- and post-care protocols. Mary serves as Laser Safety Officer and laser medical director.",
-  },
-  {
-    title: "Medical weight-loss programs",
-    text: "Program oversight for practices offering medical weight-loss services, including protocol structure and provider evaluation requirements.",
-  },
-  {
-    title: "IV hydration and wellness",
-    text: "Protocols and oversight structure for wellness practices adding IV hydration and related services.",
   },
 ];
 
@@ -127,7 +119,7 @@ export default function MedicalDirectorServicesPage() {
       <Section id="oversight">
         <SectionHeading
           eyebrow="Areas of oversight"
-          title="Laser, IPL, injectables, and weight-loss program oversight"
+          title="Injectables, laser, and IPL oversight"
           intro="Oversight is structured around the services your practice actually offers."
         />
         <div className="mt-12 grid gap-px overflow-hidden rounded-2xl border border-line bg-line md:grid-cols-2">
@@ -146,7 +138,7 @@ export default function MedicalDirectorServicesPage() {
             <SectionHeading eyebrow="How it works" title="From discovery call to ongoing support" />
             <ol className="mt-8 grid gap-5">
               {[
-                ["Discovery call", "A complimentary conversation about your services, setting, and goals."],
+                ["Discovery call", "A complimentary 30-minute conversation about your services, setting, and goals."],
                 ["Agreement", "You receive a medical director agreement to review at your own pace."],
                 ["Onboarding", "Protocols are written, accounts set up, and forms put in place."],
                 ["Ongoing support", "Monthly coaching, good faith exams as needed, and a medical director you can reach."],
@@ -172,7 +164,7 @@ export default function MedicalDirectorServicesPage() {
               responsible for your licensing, registrations, and day-to-day operations.
             </p>
             <p className="mt-4 text-sm text-taupe-600">
-              Questions? Call or text{" "}
+              Questions? Text or call{" "}
               <a href={site.phoneHref} className="font-semibold text-charcoal-900">
                 {site.phone}
               </a>

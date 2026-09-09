@@ -16,7 +16,6 @@ export const SERVICES_OF_INTEREST = [
   "Practice startup guidance",
   "Protocols and consent forms",
   "Laser / IPL oversight",
-  "Medical weight-loss program oversight",
   "Injector mentorship",
   "Nurse injector observation",
   "Botox and dermal filler training",

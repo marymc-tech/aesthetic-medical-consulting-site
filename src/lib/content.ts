@@ -36,9 +36,9 @@ export const services: Service[] = [
   },
   {
     slug: "oversight",
-    title: "Laser, IPL & Weight-Loss Oversight",
+    title: "Laser & IPL Medical Oversight",
     blurb:
-      "Medical oversight for laser and IPL services and for medical weight-loss programs, with pre- and post-care guidance.",
+      "Medical oversight for laser hair removal, IPL, and related device services, with pre- and post-care protocols.",
     href: "/medical-director-services#oversight",
   },
   {
@@ -78,10 +78,7 @@ export type Plan = {
   includes: string[];
 };
 
-/**
- * Plan pricing and inclusions are taken from the currently published
- * aestheticmedicalconsulting.com plans page. CONFIRM before launch.
- */
+/** Plan pricing and inclusions confirmed by Mary, September 2026. */
 export const plans: Plan[] = [
   {
     name: "Medical Spa",
@@ -191,7 +188,7 @@ export const faqGroups: FaqGroup[] = [
       },
       {
         q: "Can I use you only for good faith exams?",
-        a: "Good faith exams are included in the Medical Spa and Registered Nurse plans. Standalone arrangements may be available; contact Mary to discuss.",
+        a: "Yes. Good faith exams are included in the Medical Spa and Registered Nurse plans, and are also available on their own at $30 per exam for practices that do not need a full medical director plan.",
       },
     ],
   },
@@ -219,7 +216,7 @@ export const faqGroups: FaqGroup[] = [
     items: [
       {
         q: "What happens on a discovery call?",
-        a: "You and Mary talk through the services you offer or plan to offer, what oversight and support you're looking for, and whether working together makes sense. It is complimentary and there is no obligation.",
+        a: "In a complimentary 30-minute call, by video or in person in Scottsdale, you and Mary talk through the services you offer or plan to offer, what oversight and support you're looking for, and whether working together makes sense. There is no obligation.",
       },
       {
         q: "Are you accepting new patients?",
@@ -251,8 +248,9 @@ export const testimonials = [
 ];
 
 /**
- * Blog posts currently published on the Wix site. Full text has not been
- * migrated; links point to the live posts until content is moved over.
+ * Blog posts to migrate from the Wix site (full text not yet moved; links
+ * open the live posts meanwhile). "Can you put Botox here?" is patient-facing
+ * and moves to Skindale instead.
  */
 export const blogPosts = [
   {

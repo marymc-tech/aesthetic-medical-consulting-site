@@ -6,7 +6,7 @@ import { breadcrumbJsonLd, faqJsonLd, pageMetadata } from "@/lib/seo";
 export const metadata = pageMetadata({
   title: "Good Faith Exams for Aesthetic Practices in Arizona",
   description:
-    "Timely good faith exams by a board-certified nurse practitioner for med spas and nurse injectors in Scottsdale, Phoenix, and across Arizona. Telehealth or in person.",
+    "Good faith exams by a board-certified nurse practitioner for med spas and nurse injectors across Arizona. Telehealth or in person; included in plans or $30 per exam.",
   path: "/good-faith-exams",
 });
 
@@ -68,7 +68,8 @@ export default function GoodFaithExamsPage() {
         </ul>
         <p className="mt-8 max-w-2xl text-[15.5px] text-charcoal-700">
           Good faith exams are included in the Medical Spa and Registered Nurse medical director
-          plans. Standalone arrangements may be available; contact Mary to discuss.
+          plans. They are also available on their own, without a plan, at{" "}
+          <strong className="text-charcoal-900">$30 per exam</strong>.
         </p>
       </Section>
 

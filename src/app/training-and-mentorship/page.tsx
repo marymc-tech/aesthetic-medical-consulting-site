@@ -121,9 +121,9 @@ export default function TrainingPage() {
               <h3 className="text-[24px] font-semibold text-charcoal-900">Who should attend</h3>
               <p className="mt-3 max-w-2xl text-[15.5px] leading-relaxed text-charcoal-700">
                 Licensed medical professionals who want to begin offering neurotoxin and dermal
-                filler treatments. Please confirm that your license and state rules allow you to
-                perform these procedures; the course is educational and does not itself authorize
-                you to inject.
+                filler treatments. There are no prerequisites. Please confirm that your license and
+                state rules allow you to perform these procedures; the course is educational and
+                does not itself authorize you to inject.
               </p>
             </div>
             <div>
@@ -167,7 +167,7 @@ export default function TrainingPage() {
               </div>
               <div>
                 <dt className="font-semibold text-charcoal-900">Tuition</dt>
-                <dd className="text-taupe-600">Contact for current pricing and upcoming dates. Observation Day fees are credited toward tuition.</dd>
+                <dd className="text-taupe-600"><span className="font-display text-[24px] font-semibold text-charcoal-900">$1,500</span><br />Observation Day fees ($600) are credited toward tuition. Contact Mary for upcoming dates.</dd>
               </div>
             </dl>
             <p className="mt-5 text-[13.5px] leading-relaxed text-taupe-600">
@@ -178,7 +178,7 @@ export default function TrainingPage() {
             <div className="mt-6 flex flex-col gap-3">
               <ButtonLink href="/contact">Ask about the next session</ButtonLink>
               <a href={site.phoneHref} className="text-center text-sm font-semibold text-charcoal-900 underline-offset-4 hover:underline">
-                Call or text {site.phone}
+                Text or call {site.phone}
               </a>
             </div>
           </div>
