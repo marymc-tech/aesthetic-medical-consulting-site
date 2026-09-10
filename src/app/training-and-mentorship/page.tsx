@@ -1,5 +1,6 @@
+import Image from "next/image";
 import JsonLd from "@/components/JsonLd";
-import { ButtonLink, Check, FinalCta, PageHero, Placeholder, Section, SectionHeading } from "@/components/ui";
+import { ButtonLink, Check, FinalCta, PageHero, Section, SectionHeading } from "@/components/ui";
 import { breadcrumbJsonLd, pageMetadata } from "@/lib/seo";
 import { site } from "@/lib/site";
 
@@ -58,7 +59,14 @@ export default function TrainingPage() {
               <ButtonLink href="/contact">Ask about mentorship</ButtonLink>
             </div>
           </div>
-          <Placeholder label="Mary mentoring an injector" className="aspect-[4/3] w-full" />
+          <Image
+            src="/images/mary-mcmillin-skindale.jpg"
+            alt="Mary McMillin in scrubs at the Scottsdale office"
+            width={1200}
+            height={900}
+            sizes="(max-width: 1024px) 100vw, 560px"
+            className="aspect-[4/3] w-full rounded-2xl object-cover shadow-[0_30px_60px_-40px_rgba(46,42,40,0.45)]"
+          />
         </div>
       </Section>
 

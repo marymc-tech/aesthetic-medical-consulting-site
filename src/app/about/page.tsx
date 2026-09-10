@@ -1,5 +1,6 @@
+import Image from "next/image";
 import JsonLd from "@/components/JsonLd";
-import { ButtonLink, FinalCta, Placeholder, Section, SectionHeading } from "@/components/ui";
+import { ButtonLink, FinalCta, Section, SectionHeading } from "@/components/ui";
 import { breadcrumbJsonLd, pageMetadata } from "@/lib/seo";
 import { site } from "@/lib/site";
 
@@ -26,7 +27,15 @@ export default function AboutPage() {
               aesthetic professionals across Arizona.
             </p>
           </div>
-          <Placeholder label="Portrait of Mary" className="aspect-[4/5] w-full max-w-sm md:ml-auto" />
+          <Image
+            src="/images/mary-mcmillin-portrait.jpg"
+            alt="Mary McMillin, MSN, NP-C, FNP-BC"
+            width={1200}
+            height={1500}
+            priority
+            sizes="(max-width: 768px) 100vw, 384px"
+            className="aspect-[4/5] w-full max-w-sm rounded-2xl object-cover shadow-[0_30px_60px_-40px_rgba(46,42,40,0.45)] md:ml-auto"
+          />
         </div>
       </section>
 

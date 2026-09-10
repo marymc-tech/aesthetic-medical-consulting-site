@@ -34,7 +34,7 @@ export const site = {
     "Utah",
   ],
   social: {
-    instagram: "https://www.instagram.com/marymc_aestheticnp",
+    instagram: "https://www.instagram.com/aestheticmedicalconsulting",
     facebook: "https://www.facebook.com/profile.php?id=61556277694441",
     linkedin: "https://www.linkedin.com/in/mary-mcmillin-aestheticnp",
   },

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import Reveal from "@/components/Reveal";
 import JsonLd from "@/components/JsonLd";
@@ -5,7 +6,6 @@ import {
   ButtonLink,
   Faq,
   FinalCta,
-  Placeholder,
   Section,
   SectionHeading,
 } from "@/components/ui";
@@ -71,8 +71,16 @@ export default function HomePage() {
               </a>
             </p>
           </div>
-          <Reveal delay={120}>
-            <Placeholder label="Portrait of Mary" className="aspect-[4/5] w-full max-w-md md:ml-auto" />
+          <Reveal delay={120} className="md:ml-auto">
+            <Image
+              src="/images/mary-mcmillin-portrait.jpg"
+              alt="Mary McMillin, MSN, NP-C, FNP-BC, smiling with arms crossed"
+              width={1200}
+              height={1500}
+              priority
+              sizes="(max-width: 768px) 100vw, 440px"
+              className="aspect-[4/5] w-full max-w-md rounded-2xl object-cover shadow-[0_30px_60px_-40px_rgba(46,42,40,0.45)]"
+            />
           </Reveal>
         </div>
       </section>
