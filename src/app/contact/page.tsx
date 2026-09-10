@@ -5,7 +5,7 @@ import { breadcrumbJsonLd, pageMetadata } from "@/lib/seo";
 import { site } from "@/lib/site";
 
 export const metadata = pageMetadata({
-  title: "Schedule a Discovery Call | Aesthetic Medical Consulting",
+  title: "Schedule a Discovery Call | Aesthetic Med Consulting",
   description:
     "Request a complimentary discovery call with Mary McMillin, NP, for medical director services, good faith exams, or training in Scottsdale, Phoenix, and across Arizona.",
   path: "/contact",

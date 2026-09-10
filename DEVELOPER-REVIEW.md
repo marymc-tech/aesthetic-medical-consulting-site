@@ -1,6 +1,6 @@
 # Developer Review Guide
 
-For the developer reviewing the Aesthetic Medical Consulting site before launch.
+For the developer reviewing the Aesthetic Med Consulting site before launch.
 
 ## What this is
 

@@ -166,7 +166,7 @@ export const faqGroups: FaqGroup[] = [
       },
       {
         q: "Are you also a medical director for other businesses?",
-        a: "Yes. Mary serves as medical director for practices in Arizona, including her own, Skindale Medspa in Scottsdale. Patient care at Skindale is entirely separate from the professional services offered through Aesthetic Medical Consulting.",
+        a: "Yes. Mary serves as medical director for practices in Arizona, including her own, Skindale Medspa in Scottsdale. Patient care at Skindale is entirely separate from the professional services offered through Aesthetic Med Consulting.",
       },
     ],
   },

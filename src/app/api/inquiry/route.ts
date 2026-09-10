@@ -14,7 +14,7 @@ export const runtime = "nodejs";
  * Env:
  *   RESEND_API_KEY   Resend API key (production).
  *   INQUIRY_TO       Destination inbox (defaults to site.email).
- *   INQUIRY_FROM     Verified sender, e.g. "Website <inquiries@aestheticmedicalconsulting.com>".
+ *   INQUIRY_FROM     Verified sender, e.g. "Website <inquiries@aestheticmedconsulting.com>".
  *   INQUIRY_DRY_RUN  "true" to accept submissions without sending (preview testing).
  */
 
@@ -56,7 +56,7 @@ export async function POST(req: Request) {
   const d = v.data;
 
   const to = process.env.INQUIRY_TO ?? site.email;
-  const from = process.env.INQUIRY_FROM ?? "Aesthetic Medical Consulting <onboarding@resend.dev>";
+  const from = process.env.INQUIRY_FROM ?? "Aesthetic Med Consulting <onboarding@resend.dev>";
   const subject = `Discovery call request: ${d.name}${d.business ? ` (${d.business})` : ""}`;
 
   const text = [

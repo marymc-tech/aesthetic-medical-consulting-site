@@ -5,7 +5,7 @@ import { site } from "@/lib/site";
 export const metadata = {
   ...pageMetadata({
     title: "Privacy Policy",
-    description: "How Aesthetic Medical Consulting handles information submitted through this website.",
+    description: "How Aesthetic Med Consulting handles information submitted through this website.",
     path: "/privacy",
   }),
   robots: { index: false, follow: true },

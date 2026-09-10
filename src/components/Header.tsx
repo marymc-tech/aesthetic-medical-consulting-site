@@ -21,7 +21,7 @@ export default function Header() {
       <div className="mx-auto flex max-w-7xl items-center justify-between gap-6 px-5 py-4 sm:px-8">
         <Link href="/" className="flex flex-col leading-none" aria-label={`${site.name} home`}>
           <span className="font-display text-[22px] font-semibold tracking-tight text-charcoal-900">
-            Aesthetic Medical Consulting
+            Aesthetic Med Consulting
           </span>
           <span className="mt-1 text-[11px] font-semibold uppercase tracking-[0.16em] text-rose-700">
             Mary McMillin, MSN, NP-C, FNP-BC

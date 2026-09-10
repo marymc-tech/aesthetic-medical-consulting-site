@@ -5,7 +5,7 @@ import { disclaimer, site } from "@/lib/site";
 export const metadata = {
   ...pageMetadata({
     title: "Terms of Use",
-    description: "Terms for using the Aesthetic Medical Consulting website.",
+    description: "Terms for using the Aesthetic Med Consulting website.",
     path: "/terms",
   }),
   robots: { index: false, follow: true },

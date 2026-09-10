@@ -1,6 +1,6 @@
-# Aesthetic Medical Consulting — website
+# Aesthetic Med Consulting — website
 
-Marketing site for Aesthetic Medical Consulting (Mary McMillin, MSN, NP-C, FNP-BC).
+Marketing site for Aesthetic Med Consulting (Mary McMillin, MSN, NP-C, FNP-BC).
 Next.js 16 (App Router) · TypeScript · Tailwind CSS 4 · hosted on Vercel.
 
 No database, no authentication, no patient data. The only server-side code is the

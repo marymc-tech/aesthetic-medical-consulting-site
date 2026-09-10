@@ -30,3 +30,9 @@ Updated September 9, 2026 after Mary's review. Confirmed items are recorded at t
 - Discovery call: 30 minutes, complimentary.
 - Newsletter signup: removed. Privacy Policy and Terms: no attorney review planned.
 - GitHub, Vercel, and Resend: the developer will set these up.
+
+## Brand and domain (updated September 10, 2026)
+
+- Business name changed to **Aesthetic Med Consulting** everywhere on the site.
+- New domain **aestheticmedconsulting.com** added in Vercel by Mary; canonical URLs, sitemap, and structured data now use it. Confirm whether the primary should be `aestheticmedconsulting.com` or `www.aestheticmedconsulting.com` (Vercel redirects one to the other; set the preferred one as primary under Project → Settings → Domains).
+- The old Wix site at aestheticmedicalconsulting.com is unchanged. When ready, a redirect from the old domain to the new one preserves existing links and search rankings; see LAUNCH-CHECKLIST.md.

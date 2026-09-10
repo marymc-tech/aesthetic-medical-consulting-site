@@ -1,6 +1,6 @@
 import { ImageResponse } from "next/og";
 
-export const alt = "Aesthetic Medical Consulting — Mary McMillin, MSN, NP-C, FNP-BC";
+export const alt = "Aesthetic Med Consulting — Mary McMillin, MSN, NP-C, FNP-BC";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -39,7 +39,7 @@ export default async function OgImage() {
             Experienced Medical Direction for Aesthetic and Wellness Practices
           </div>
           <div style={{ display: "flex", fontSize: 24, color: "#6b5d54", fontFamily: "Arial, sans-serif" }}>
-            Aesthetic Medical Consulting · Mary McMillin, MSN, NP-C, FNP-BC
+            Aesthetic Med Consulting · Mary McMillin, MSN, NP-C, FNP-BC
           </div>
         </div>
       </div>

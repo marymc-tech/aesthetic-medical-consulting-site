@@ -59,7 +59,7 @@ export default function AboutPage() {
             <h2 className="mt-12 text-[34px] font-medium text-charcoal-900">What she does today</h2>
             <p className="mt-6">
               Mary serves as medical director and Laser Safety Officer for practices in Arizona.
-              Through Aesthetic Medical Consulting she supports nurses, laser technicians,
+              Through Aesthetic Med Consulting she supports nurses, laser technicians,
               estheticians, and practice owners with oversight, good faith exams, protocols, and
               mentorship, and she teaches hands-on injectables training in Scottsdale.
             </p>
@@ -103,7 +103,7 @@ export default function AboutPage() {
             align="center"
             eyebrow="Two separate practices"
             title="Consulting here. Patient care at Skindale Medspa."
-            intro="Aesthetic Medical Consulting works with licensed professionals and practices. Mary sees patients for aesthetic treatments at Skindale Medspa in Scottsdale, which operates separately with its own website and booking."
+            intro="Aesthetic Med Consulting works with licensed professionals and practices. Mary sees patients for aesthetic treatments at Skindale Medspa in Scottsdale, which operates separately with its own website and booking."
           />
           <div className="mt-6">
             <ButtonLink href={site.skindaleUrl} variant="secondary" external>

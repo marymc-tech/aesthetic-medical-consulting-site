@@ -6,7 +6,7 @@ import { breadcrumbJsonLd, faqJsonLd, pageMetadata } from "@/lib/seo";
 export const metadata = pageMetadata({
   title: "FAQs | Medical Director, Good Faith Exams & Training in AZ",
   description:
-    "Answers to common questions about working with a medical director, good faith exams, injectables training, and getting started with Aesthetic Medical Consulting in Arizona.",
+    "Answers to common questions about working with a medical director, good faith exams, injectables training, and getting started with Aesthetic Med Consulting in Arizona.",
   path: "/faqs",
 });
 

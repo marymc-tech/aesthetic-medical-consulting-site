@@ -4,7 +4,7 @@
  * Mary's confirmation (see NEEDS-CONFIRMATION.md).
  */
 export const site = {
-  name: "Aesthetic Medical Consulting",
+  name: "Aesthetic Med Consulting",
   shortName: "AMC",
   owner: "Mary McMillin, MSN, NP-C, FNP-BC",
   ownerFirst: "Mary",
@@ -12,7 +12,7 @@ export const site = {
   description:
     "Medical director services, good-faith exams, protocols, mentorship, and training for med spas, nurse injectors, laser technicians, and estheticians in Scottsdale, Phoenix, and across Arizona.",
   // Production URL. Vercel preview deployments override via NEXT_PUBLIC_SITE_URL.
-  url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.aestheticmedicalconsulting.com",
+  url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://aestheticmedconsulting.com",
   phone: "602.999.5847",
   phoneHref: "tel:+16029995847",
   email: "marymcnp@gmail.com",
@@ -56,7 +56,7 @@ export const nav = [
 ] as const;
 
 export const disclaimer =
-  "Aesthetic Medical Consulting provides clinical oversight, education, and business guidance to licensed professionals. Information on this site is educational and is not legal advice. Regulatory requirements vary by state and change over time; practice owners remain responsible for their own licensing, registrations, and compliance.";
+  "Aesthetic Med Consulting provides clinical oversight, education, and business guidance to licensed professionals. Information on this site is educational and is not legal advice. Regulatory requirements vary by state and change over time; practice owners remain responsible for their own licensing, registrations, and compliance.";
 
 export const phiNotice =
   "Please do not submit patient names, photographs, medical records, or protected health information through this form.";

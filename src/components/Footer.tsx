@@ -8,7 +8,7 @@ export default function Footer() {
         <div className="grid gap-10 md:grid-cols-[1.4fr_1fr_1fr]">
           <div>
             <p className="font-display text-2xl font-semibold text-charcoal-900">
-              Aesthetic Medical Consulting
+              Aesthetic Med Consulting
             </p>
             <p className="mt-1 text-sm text-taupe-600">{site.owner}</p>
             <address className="mt-5 text-sm not-italic leading-relaxed text-charcoal-700">

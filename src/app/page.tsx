@@ -14,7 +14,7 @@ import { faqJsonLd, pageMetadata } from "@/lib/seo";
 import { site } from "@/lib/site";
 
 export const metadata = pageMetadata({
-  title: "Aesthetic Medical Consulting | Medical Director, Arizona",
+  title: "Aesthetic Med Consulting | Medical Director, Arizona",
   description:
     "Experienced medical direction, good-faith exams, protocols, and mentorship for med spas, nurse injectors, and laser technicians in Scottsdale, Phoenix, and across Arizona.",
   path: "/",
@@ -116,7 +116,7 @@ export default function HomePage() {
       <Section tone="cream">
         <SectionHeading
           eyebrow="Core services"
-          title="What Aesthetic Medical Consulting provides"
+          title="What Aesthetic Med Consulting provides"
           intro="Professional services for licensed practices and providers. Patient care is offered separately through Skindale Medspa."
         />
         <div className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">

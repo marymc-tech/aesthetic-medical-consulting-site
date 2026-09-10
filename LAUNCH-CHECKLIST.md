@@ -46,7 +46,7 @@ stays live and untouched until the very end.
 ## D. Post-launch
 
 - [ ] Google Search Console: add property, submit `https://www.aestheticmedicalconsulting.com/sitemap.xml`
-- [ ] Google Business Profile: create/claim "Aesthetic Medical Consulting" (Scottsdale), separate from Skindale's profile; match name/address/phone to the site footer
+- [ ] Google Business Profile: create/claim "Aesthetic Med Consulting" (Scottsdale), separate from Skindale's profile; match name/address/phone to the site footer
 - [ ] Check Search Console for 404s from old URLs over the first two weeks; add redirects as needed
 - [ ] Decide on analytics (Vercel Analytics is privacy-friendly and needs no cookie banner); extend the CSP if added
 - [ ] Update Instagram/Facebook/LinkedIn bios to the new site
